@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.nav-bar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer-input-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  margin-left: 20px;
+}
+
+.social-media-icons {
+  margin-right: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+#blog-info {
+  margin: 10%;
+}
+
+.container {
+  margin: 10%;
+  object-fit: contain;
+}
+
+.glasto-img {
+  display: block;
+  width: 80%;
+  margin: 10%;  
+}
+
+.adele-img {
+  display: block;
+  width:80%;
+  margin:10%;
+}
+
+.abba-img {
+  display: block;
+  width:80%;
+  margin:10%;
+  size: 20px;
+}
+
+header:hover {
+  background-color: red;
+}

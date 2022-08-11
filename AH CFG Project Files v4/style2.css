@@ -1,0 +1,191 @@
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0px;
+  height: 120px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px; /* fixes issue of not being able to see the top of the main content from behind the hearer, but does not resolve the gallery caption text overlapping the header when scrolling */
+}
+
+.main-title {
+  text-align: center;
+}
+
+.nav-bar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+main {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+#SubInfo {
+  color: black;
+  text-align: center;
+  max-width: 1000px;
+  max-height: 400px;
+  margin: 100px auto;
+  border-style: solid;
+  border-width: 0.4cm;
+  border-color: black;
+  padding: 50px;
+  font-size: 18px;
+}
+
+
+.sub-heading {
+  color: red;
+  border: 2cm;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.main-pic {
+  width: 1000px;
+  height: 250px;
+  background-image: url(https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); /* broken link - pic not inclded in files */
+  background-position: center;
+  background-size: cover;
+  margin: 100px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery-pics {
+  width: 1000px;
+  height: 300px;
+  margin: 100px auto;
+  display: flex;
+}
+
+.col {
+  height: 100%;
+  flex: 1;
+  color: white;
+  font-weight: 700;
+  box-sizing: border-box;
+  border-spacing: 5cm;
+  padding: 25px;
+  text-justify: auto;
+  font-family:'Roboto', sans-serif;
+  position: relative;
+  transform: 0.6s;
+}
+
+.col:nth-child(1) {
+  background-image: url(./ABBA.jpg); 
+  opacity: 0.85;
+}
+.col:nth-child(2) {
+  background-image: url(./Glastonbury.jpeg); 
+  opacity: 0.85;
+}
+.col:nth-child(3) {
+  background-image: url(./Adele\ BST.jpg);
+  opacity: 0.85;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.caption {
+  font-size: 30px;
+  margin: 29px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  display: none;
+}
+
+.caption button {
+  border: 2px solid;
+  border-color: red;
+  background: white;
+  outline: 2px;
+  margin: top 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col img {
+  max-width: 200px;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.col:hover {
+  flex-grow: 2.5;
+}
+
+.col:hover .caption {
+  display: block;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer-input-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  margin-left: 20px;
+}
+
+.social-media-icons {
+  margin-right: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#container {
+ width: 200;
+
+}
+
+header:hover {
+  background-color: red;
+}
+
